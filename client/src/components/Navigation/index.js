@@ -4,7 +4,7 @@ function Navigation() {
   return (
     <>
       <Navbar bg="info" expand="lg">
-        <Navbar.Brand href="#home">Nathan Kent</Navbar.Brand>
+        <Navbar.Brand href="/about">Nathan Kent</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav className="mr-auto">

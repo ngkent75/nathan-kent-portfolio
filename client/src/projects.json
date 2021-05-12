@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Quirky Quiz",
+    "screenshot": "./assets/QuirkyQuiz.png",
+    "summary": "Quirky Quiz was the final project I worked on during the UNCC coding bootcamp. It's a web application that allows users to take silly quizes on topics of their choice. Quirky Quiz utilizes React, MySQL, and session as its major technologies. For future development, there are plans to allow users to make their own quizes and to polish up the login and results storage.",
+    "repo": "https://github.com/ngkent75/quirky-quiz",
+    "deployment": "https://quirkyquiz.herokuapp.com"
+  },
+  {
+    "id": 2,
+    "title": "PokeBaller",
+    "screenshot": "./assets/poke.png",
+    "summary": "PokeBaller is the second project during the UNCC coding bootcamp that I led. PokeBaller is a web application that allows users to track their own personal Pokemon card collection. They can search cards to add to their collection and view and edit their collection. This project utilizes handlebars, session, MySQL, and the Pokemon TCG API as its major technologies. For future develoment, there are plans to have autocomplete searches, and feedback for login fails and card collecting to make it more obvious when something works or fails. There are also plans to add a wishlist for cards that you want but don't own yet.",
+    "repo": "https://github.com/ngkent75/PokeBaller",
+    "deployment": " https://evening-oasis-15758.herokuapp.com/"
+  },
+  {
+    "id": 3,
+    "title": "MovieFinder",
+    "screenshot": "./assets/movie.png",
+    "summary": "MovieFinder is the first project that I led during the UNCC coding bootcamp. This web application allows users to search for movies and have information about the movie displayed to them, along with related media. The information that gets displayed is customizable using the checkboxes in the side bar. Major technologies utilized are Pure CSS, OMDB API, and Wikipedia API.",
+    "repo": "https://github.com/ngkent75/moviefinderapp",
+    "deployment": "https://ngkent75.github.io/moviefinderapp/"
+  }
+]

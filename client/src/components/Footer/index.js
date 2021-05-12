@@ -8,7 +8,7 @@ import { GoMarkGithub } from 'react-icons/go';
 function Footer () {
 
   return (
-      <footer className='bg-white text-center text-white fixed-bottom'>
+      <footer className='bg-white text-center text-white'>
           <div className='container p-3 pb-0'>
               <section className='bg-dark mb-2'>
                  <Link to='/home' className='btn btn-outline-light btn-floating m-1' role='button' title='Home'><BiHomeHeart/></Link>
