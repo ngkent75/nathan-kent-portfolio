@@ -11,7 +11,7 @@ function About() {
       </h1>
 
       <div>
-        Hi, my name is Nathan! I am a fresh full-stack web developer who recently graduated from the UNCC coding bootcamp with and A. Outside of coding, I enjoy coaching Pop Warner football, PC building, and playing video games. I really enjoy learning new things, which is part of the reason why I started coding. There's no limit to what you can learn!
+        Hi, my name is Nathan! I am a fresh full-stack web developer who recently graduated from the UNCC coding bootcamp with an A. Outside of coding, I enjoy coaching Pop Warner football, PC building, and playing video games. I really enjoy learning new things, which is part of the reason why I started coding. There's no limit to what you can learn!
       </div>
 
       <a href="https://drive.google.com/file/d/1GgFXAZCGroPbxsTKXRKMDh7Xn0fU8wgu/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>

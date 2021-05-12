@@ -11,7 +11,7 @@ function Projects() {
       <h1 align="center">Projects</h1>
 
       <Tab.Container id="left-tabs-example" defaultActiveKey="first">
-        <Row>
+        <Row  style={{ margin: 0 }}>
           <Col sm={3}>
             <Nav variant="pills" className="flex-column">
               <Nav.Item>

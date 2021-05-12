@@ -1,3 +1,9 @@
+/* @media screen and (max-width: 992px) {
+  img {
+    max-width
+  }
+} */
+
 img {
-  max-width: 100%;
+  max-width: 70%;
 }
