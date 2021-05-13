@@ -6,10 +6,10 @@ import { AiOutlineInfoCircle, AiOutlineDesktop } from 'react-icons/ai';
 import { GoMarkGithub } from 'react-icons/go';
 import './index.css';
 
-function Footer () {
+function FooterBottom () {
 
   return (
-      <footer className='text-center text-white mt-5'>
+      <footer className='text-center text-white mt-5 bottomout'>
           <div className='container p-3 pb-0'>
               <section className='bg-dark mb-2'>
                  <Link to='/home' className='btn btn-outline-light btn-floating m-1' role='button' title='Home'><BiHomeHeart/></Link>
@@ -29,4 +29,4 @@ function Footer () {
   );
 }
 
-export default Footer;
+export default FooterBottom;

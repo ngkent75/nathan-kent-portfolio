@@ -1,0 +1,21 @@
+.navcustom1 {
+ font-size: 32px !important;
+ font-weight: bold;
+}
+
+.navcustom2 {
+  font-size: 20px !important;
+  font-weight: bold;
+}
+
+.navcustom1:hover {
+  color: cadetblue !important;
+  transform: scale(1.1);
+  text-shadow: 2px 2px rgb(8, 61, 61);
+}
+
+.navcustom2:hover {
+  color: cadetblue !important;
+  transform: scale(1.1);
+  text-shadow: 2px 2px rgb(8, 61, 61);
+}
