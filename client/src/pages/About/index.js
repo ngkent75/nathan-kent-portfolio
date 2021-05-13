@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './index.css';
 import Footer from '../../components/Footer';
+import { GrDocument } from "react-icons/gr";
 
 function About() {
   return (
@@ -9,7 +10,7 @@ function About() {
       <Container>
         <Row>
           <Col align="center">
-            <h1>
+            <h1 className="mt-5 mb-5">
               About Me
             </h1>
           </Col>
@@ -24,46 +25,49 @@ function About() {
             </div>
           </Col>
         </Row>
-        <Row >
+        <Row>
           <Col sm={6}>
-            <div className='bluecard'>
+            <div className='bluecard' align='center'>
               <h2 align="center">Hard Skills</h2>
 
-              <ul>
-                <li>HTML5</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Bootstrap</li>
-                <li>jQuery</li>
-                <li>Sequelize</li>
-                <li>MySQL</li>
-                <li>MongoDB</li>
-                <li>Node.js</li>
-                <li>Express</li>
-                <li>Session</li>
-                <li>Progressive Web Applications</li>
-                <li>Handlebars</li>
-                <li>React</li>
-              </ul>
+
+              <p>HTML5</p>
+              <p>CSS</p>
+              <p>JavaScript</p>
+              <p>Bootstrap</p>
+              <p>jQuery</p>
+              <p>Sequelize</p>
+              <p>MySQL</p>
+              <p>MongoDB</p>
+              <p>Node.js</p>
+              <p>Express</p>
+              <p>Session</p>
+              <p>Progressive Web Applications</p>
+              <p>Handlebars</p>
+              <p>React</p>
+
             </div>
           </Col>
           <Col sm={6}>
-            <div>
+            <div align='center'>
               <div className='bluecard'>
                 <h2 align="center">Soft Skills</h2>
 
-                <ul>
-                  <li>Critical Thinking</li>
-                  <li>Problem Solving</li>
-                  <li>Communication</li>
-                  <li>Leadership</li>
-                  <li>Collaborative</li>
-                  <li>Self-starting</li>
-                  <li>Malleable</li>
-                  <li>Inquisitive</li>
-                </ul>
+
+                <p>Critical Thinking</p>
+                <p>Problem Solving</p>
+                <p>Communication</p>
+                <p>Leadership</p>
+                <p>Collaborative</p>
+                <p>Self-starting</p>
+                <p>Malleable</p>
+                <p>Inquisitive</p>
+
               </div>
-              <a href="https://drive.google.com/file/d/1GgFXAZCGroPbxsTKXRKMDh7Xn0fU8wgu/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
+              <div>
+                <h2 align="center" className='mt-5 mb-5'>Resume</h2>
+                <a href="https://drive.google.com/file/d/1JrVDzy6KyqXBKk4a_LX3o_svWrUEgwWe/view?usp=sharing" target='_blank' rel="noreferrer" className='btn buttonstyle btn-outline-dark' role='button' title='Resume' align="center">< GrDocument /> </a>
+              </div>
             </div>
           </Col>
         </Row>

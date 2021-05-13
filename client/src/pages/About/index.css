@@ -1,5 +1,13 @@
+h1 {
+  font-weight: bold !important;
+  font-size: 48px !important;
+}
+
 img {
   max-width: 70%;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .bluecard {
@@ -7,10 +15,8 @@ img {
   background-color: cadetblue;
   font-size: 24px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  /* border-radius: 20px; */
   border-style: solid;
   border-width: 1px;
-  margin: 15px;
   width: 100%;
   margin-top: 20%;
 }
@@ -18,4 +24,15 @@ img {
 .about {
   font-size: 32px !important;
   font-family: sans-serif;
+}
+
+.buttonstyle {
+  background-color: cadetblue !important;
+  font-size: 44px !important;
+  padding: 20px !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buttonstyle:hover {
+  background-color: rgb(46, 128, 131) !important;
 }
