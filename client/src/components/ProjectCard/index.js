@@ -11,8 +11,8 @@ const ProjectCard = (props) => {
       <div className="m-3" align="start">
         <p className="m-3">{props.summary}</p>
       </div>
-      <Row>
-        <Col className="mt-3 mb-3">
+      <Row className="margin mt-5 mb-5 p-0">
+        <Col className="m-0 p-0">
           <a href={props.repo}
             target='_blank'
             rel="noreferrer"
@@ -23,7 +23,7 @@ const ProjectCard = (props) => {
             < AiOutlineGithub />
           </a>
         </Col>
-        <Col className="mt-3 mb-3">
+        <Col>
           <a href={props.deployment}
             target='_blank'
             rel="noreferrer"
