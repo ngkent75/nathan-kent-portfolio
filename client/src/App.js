@@ -7,12 +7,8 @@ import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 
 const App = () => {
-
-  
-
   return (
     <>
-
       <Router>
         <Navigation />
         <Route exact path="/" component={Home} />
@@ -20,7 +16,6 @@ const App = () => {
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/contact" component={Contact} />
       </Router>
-
     </>
   );
 }
