@@ -16,14 +16,14 @@
   {
     "id": 3,
     "title": "LinkedIn",
-    "info": "https://www.linkedin.com/in/NathanGKent",
+    "info": "linkedin.com/in/NathanGKent",
     "button": "Click to visit my LinkedIn page",
     "link": "https://www.linkedin.com/in/NathanGKent"
   },
   {
     "id": 4,
     "title": "Github",
-    "info": "https://github.com/ngkent75",
+    "info": "github.com/ngkent75",
     "button": "Click to visit my Github page",
     "link": "https://github.com/ngkent75"
   }

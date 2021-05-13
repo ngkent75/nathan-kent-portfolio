@@ -7,7 +7,7 @@ const ProjectCard = (props) => {
   return (
     <div align="center">
       <h2 className="mt-3 mb-3">{props.title}</h2>
-      <img className="mt-3 mb-3" src={props.screenshot} alt="Project Screenshot" width="500" style={{ border: '1px solid black' }} />
+      <img className="mt-5 mb-5" src={props.screenshot} alt="Project Screenshot" width="500" style={{ border: '1px solid black' }} />
       <div className="m-3" align="start">
         <p className="m-3">{props.summary}</p>
       </div>
