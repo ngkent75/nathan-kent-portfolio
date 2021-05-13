@@ -36,3 +36,7 @@ img {
 .buttonstyle:hover {
   background-color: rgb(46, 128, 131) !important;
 }
+
+.buttoncolor:hover {
+  color: white !important;
+}

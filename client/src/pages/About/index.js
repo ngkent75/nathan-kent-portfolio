@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './index.css';
 import Footer from '../../components/Footer';
-import { GrDocument } from "react-icons/gr";
+import { AiOutlineFile } from "react-icons/ai";
 
 function About() {
   return (
@@ -66,7 +66,16 @@ function About() {
               </div>
               <div>
                 <h2 align="center" className='mt-5 mb-5'>Resume</h2>
-                <a href="https://drive.google.com/file/d/1JrVDzy6KyqXBKk4a_LX3o_svWrUEgwWe/view?usp=sharing" target='_blank' rel="noreferrer" className='btn buttonstyle btn-outline-dark' role='button' title='Resume' align="center">< GrDocument /> </a>
+                <a
+                  href="https://drive.google.com/file/d/1JrVDzy6KyqXBKk4a_LX3o_svWrUEgwWe/view?usp=sharing" 
+                  target='_blank' 
+                  rel="noreferrer" 
+                  className='btn buttonstyle btn-outline-dark'
+                  role='button'
+                  title='Resume'
+                  align="center">
+                  < AiOutlineFile className='buttoncolor' />
+                </a>
               </div>
             </div>
           </Col>

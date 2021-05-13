@@ -13,7 +13,7 @@ function Projects() {
       <h1 align="center" className="mt-5 mb-5">Projects</h1>
 
       <Tabs defaultActiveKey="QuirkyQuiz" id="uncontrolled-tab-example">
-        <Tab eventKey="QuirkyQuiz" title="Quirky Quiz" >
+        <Tab eventKey="QuirkyQuiz" title="Quirky Quiz">
           <Project1 />
         </Tab>
         <Tab eventKey="PokeBaller" title="PokeBaller">

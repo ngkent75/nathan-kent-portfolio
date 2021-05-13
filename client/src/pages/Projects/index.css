@@ -1,18 +1,4 @@
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-  background-color: cadetblue !important;
-  color: #212529 !important;
-}
-
 .nav-link {
   color: cadetblue !important;
+  font-weight: bold;
 }
-
-.bggreen {
-  background-color: cadetblue !important;
-}
-
-.side {
-  height: 100% !important;
-}
-
-/* #212529; */
