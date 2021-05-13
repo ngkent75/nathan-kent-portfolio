@@ -1,5 +1,5 @@
-import React, {useState} from 'react';
-import { Tabs, Tab, Row, Col, Nav } from 'react-bootstrap';
+import React from 'react';
+import { Tabs, Tab } from 'react-bootstrap';
 import Project1 from '../../components/Project1';
 import Project2 from '../../components/Project2';
 import Project3 from '../../components/Project3';

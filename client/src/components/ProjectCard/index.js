@@ -1,7 +1,6 @@
 import React from 'react';
 import './index.css';
 import { Row, Col } from 'react-bootstrap';
-import { GrDocument } from "react-icons/gr";
 import { AiOutlineGithub, AiOutlineDesktop } from 'react-icons/ai';
 
 const ProjectCard = (props) => {
