@@ -20,7 +20,7 @@ function About() {
             <img src="./assets/Portrait.jpg" alt="Portrait of Me" width="400" align="center" className="mb-5" />
           </Col>
           <Col sm={6} align="center" className='d-flex align-items-center'>
-            <div className='about'>
+            <div className='about m-3'>
               Hi, my name is Nathan! I am a fresh full-stack web developer who recently graduated from the UNCC coding bootcamp with an A. Outside of coding, I enjoy coaching Pop Warner football, PC building, and playing video games. I really enjoy learning new things, which is part of the reason why I started coding. There's no limit to what you can learn!
             </div>
           </Col>
