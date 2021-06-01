@@ -13,7 +13,7 @@
     "screenshot": "./assets/PokeBaller.png",
     "summary": "     PokeBaller is the second project during the UNCC coding bootcamp that I led. PokeBaller is a web application that allows users to track their own personal Pokemon card collection. They can search cards to add to their collection and view and edit their collection. This project utilizes handlebars, session, MySQL, and the Pokemon TCG API as its major technologies. For future develoment, there are plans to have autocomplete searches, and feedback for login fails and card collecting to make it more obvious when something works or fails. There are also plans to add a wishlist for cards that you want but don't own yet.",
     "repo": "https://github.com/ngkent75/PokeBaller",
-    "deployment": " https://evening-oasis-15758.herokuapp.com/"
+    "deployment": "https://pokeballer.herokuapp.com/"
   },
   {
     "id": 3,
